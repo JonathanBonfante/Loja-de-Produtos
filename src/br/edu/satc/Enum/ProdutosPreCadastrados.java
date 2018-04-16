@@ -95,6 +95,17 @@ public enum ProdutosPreCadastrados {
     public char getStatus() {
         return Status;
     }
+
+    @Override
+    public String toString() {
+        return "ProdutosPreCadastrados{" + "id=" + id + ", nome=" + nome + ", descricao=" + descricao + ", valor=" + valor + ", Status=" + Status + '}';
+    }
+
+    
+    }
+
+   
+    
    
        
-}
+
